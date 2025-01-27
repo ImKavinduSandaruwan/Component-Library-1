@@ -372,7 +372,10 @@ const SignUpStepForm = () => {
               </div>
             </div>
 
-            <button className="bg-[#B12030] text-white text-[16px] leading-[24px] font-medium font-poppins px-5 py-2 rounded-[20px] mb-4">
+            <button
+              onClick={() => navigate("/login")}
+              className="bg-[#B12030] text-white text-[16px] leading-[24px] font-medium font-poppins px-5 py-2 rounded-[20px] mb-4"
+            >
               Upload & Continue
             </button>
 
