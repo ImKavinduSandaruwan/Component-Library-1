@@ -23,9 +23,9 @@ const SignUpForm = () => {
     <div className=" bg-white flex h-screen w-full">
       {/* <div className="w-full  flex  "> */}
         {/* Form Section */}
-        <div className="w-full md:w-1/2  flex items-center justify-center lg:px-16 px-6 py-6  mb-10">
-          <div className="bg-[#FBE6E61A]/10 max-w-[500px] w-full rounded-3xl p-8 shadow-xl ">
-            <h1 className="text-[36px] leading-[54px] font-poppins text-center font-semibold text-[#263238] mb-8">
+        <div className="w-full md:w-1/2  flex items-center justify-center lg:px-16 px-6 lg:py-6 py-10  mb-5">
+          <div className="bg-[#FBE6E61A]/10 max-w-[500px] w-full rounded-[50px] p-8 shadow-xl ">
+            <h1 className="lg:text-[36px] text-[24px] leading-[54px] font-poppins text-center font-semibold text-[#263238] mb-8">
               Create an Account
             </h1>
 
@@ -460,7 +460,7 @@ const SignUpForm = () => {
         </div>
 
         {/* Image Section */}
-        <div className="hidden md:block md:w-1/2 ">
+        <div className="hidden md:block md:w-1/2 lg:py-6 py-10 ">
         
           <div className="w-full  overflow-hidden">
             <img

@@ -22,9 +22,9 @@ const Login = () => {
   return (
     <div className="flex h-screen w-full bg-white ">
       {/* Left side - Login Form */}
-      <div className="w-full md:w-1/2 flex items-center justify-center px-16 py-6 mb-5">
-        <div className="w-full max-w-[500px]  space-y-8 rounded-[40px]  bg-[#FBE6E61A]/10 p-8 shadow-xl">
-          <h1 className="text-[36px] leading-[54px] font-poppins  font-semibold text-[#263238] mb-8 text-center ">
+      <div className="w-full md:w-1/2 flex items-center justify-center lg:px-16 px-6 lg:py-6 py-10 mb-5">
+        <div className="w-full max-w-[500px]  space-y-8 rounded-[50px]  bg-[#FBE6E61A]/10 p-8 shadow-xl">
+          <h1 className="lg:text-[36px] text-[24px] leading-[54px] font-poppins  font-semibold text-[#263238] mb-8 text-center ">
             Welcome Back!
           </h1>
 
@@ -106,7 +106,7 @@ const Login = () => {
             </div>
             <div className="text-center  text-[14px] leading-[21px] font-semibold font-poppins text-[#564D4DB2]/70 mt-40">
               Don't have an account yet?{" "}
-              <button onClick={()=>navigate("/")} className="text-[#B12030] hover:text-red-500 text-[14px] leading-[21px] font-semibold font-poppins  underline">
+              <button onClick={()=>navigate("/signup")} className="text-[#B12030] hover:text-red-500 text-[14px] leading-[21px] font-semibold font-poppins  underline">
                 Sign up
               </button>
             </div>

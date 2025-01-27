@@ -9,6 +9,10 @@ import SignUpStepForm from "./components/SignUp/SignUpStepForm ";
 import { useLayoutEffect } from "react";
 import SignUpForm from "./components/SignUp/SignUpForm";
 import Login from "./components/Login";
+import Navbar from "./components/Navbar";
+import Home from "./pages/Home";
+import Footer from "./components/Footer";
+import Mcq from "./pages/Mcq";
 
 const Wrapper = ({ children }) => {
   const location = useLocation();
@@ -26,11 +30,15 @@ function App() {
 
       <BrowserRouter>
         <Wrapper>
+          <Navbar />
           <Routes>
-            <Route path="/" element={<SignUpForm />} />
+            <Route path="/" element={<Home />} />
+            <Route path="/signup" element={<SignUpForm />} />
             <Route path="/details" element={<SignUpStepForm />} />
             <Route path="/login" element={<Login />} />
+            <Route path="/mcq" element={<Mcq />} />
           </Routes>
+          <Footer />
         </Wrapper>
       </BrowserRouter>
     </>

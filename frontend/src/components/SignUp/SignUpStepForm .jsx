@@ -48,7 +48,7 @@ const SignUpStepForm = () => {
   const renderStepContent = () => {
     if (showResults && step === 2) {
       return (
-        <div className="max-w-4xl mx-auto px-4 text-center">
+        <div className="max-w-4xl mx-auto lg:px-4 px-5 text-center">
           <h2 className="text-[24px] font-semibold leading-[36px] font-poppins mb-4 mt-[130px]">
             Thank You for Completing the Assessment!
           </h2>
@@ -156,7 +156,7 @@ const SignUpStepForm = () => {
     switch (step) {
       case 1:
         return (
-          <div className="max-w-7xl mx-auto px-4">
+          <div className="max-w-7xl mx-auto lg:px-4 px-6">
             <h2 className="text-[20px] font-semibold leading-[30px] font-poppins mb-2">
               Basic Details
             </h2>
@@ -240,7 +240,7 @@ const SignUpStepForm = () => {
 
       case 2:
         return (
-          <div className="max-w-7xl mx-auto px-4">
+          <div className="max-w-7xl mx-auto lg:px-4 px-6">
             <h2 className="text-[20px] font-semibold leading-[30px] font-poppins mb-2">
               Skill Assessment
             </h2>
@@ -317,7 +317,7 @@ const SignUpStepForm = () => {
 
       case 3:
         return (
-          <div className="max-w-4xl mx-auto px-4 text-center">
+          <div className="max-w-4xl mx-auto lg:px-4 px-6 text-center">
             <h2 className="text-[20px] leading-[30px] font-semibold font-poppins mb-2">
               Submit Your CV Here
             </h2>
@@ -401,7 +401,7 @@ const SignUpStepForm = () => {
 
   return (
     <div className="min-h-screen bg-white py-8">
-      <div className="text-right px-4 mb-8 max-w-7xl mx-auto">
+      <div className="text-right lg:px-4 px-6 mb-8 max-w-7xl mx-auto">
         <div className="gap-[10px] flex flex-row justify-end">
           <span className="text-[#564D4DB2]/70 text-[14px] leading-[21px] font-semibold font-poppins">
             Already have an account?{" "}

@@ -6,6 +6,8 @@ export default {
     extend: {
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
+        hepta: ["Hepta Slab", "sans-serif"],
+        serif_4: ["Source Serif 4", "sans-serif"],
       },
     },
   },
